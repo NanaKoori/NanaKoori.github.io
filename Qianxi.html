@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>DVD Final Project | Qianxi Yang </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet"
+          type="text/css">
+    <link href="assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css">
+    <link href="assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css"/>
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN THEME STYLES -->
+    <link href="assets/global/css/components-rounded.css" id="style_components" rel="stylesheet" type="text/css"/>
+    <link href="assets/global/css/plugins.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/admin/layout4/css/layout.css" rel="stylesheet" type="text/css"/>
+    <link id="style_color" href="assets/admin/layout4/css/themes/light.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/admin/layout4/css/custom.css" rel="stylesheet" type="text/css"/>
+    <!-- END THEME STYLES -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+</head>
+
+<body class="page-header-fixed page-sidebar-closed-hide-logo">
+<!-- BEGIN HEADER -->
+<div style="margin-top: 10px;" class="page-header navbar navbar-fixed-top">
+    <!-- BEGIN HEADER INNER -->
+    <div class="page-header-inner">
+        <!-- BEGIN LOGO -->
+        <div class="page-logo">
+            <a href="index.html" style="font-size: 18px;margin-top: 18px;">
+                <img style="width: 8em;height: 3em;" src="assets/admin/layout4/icons/logo_1.2.png" alt="logo"
+                     class="logo-default"/>
+            </a>
+            <div class="menu-toggler sidebar-toggler">
+                <!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->
+            </div>
+        </div>
+        <!-- END LOGO -->
+        <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+        <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse"
+           data-target=".navbar-collapse">
+        </a>
+        <!-- END RESPONSIVE MENU TOGGLER -->
+        <!-- BEGIN PAGE TOP -->
+        <div class="page-top">
+        </div>
+        <!-- END TOP NAVIGATION MENU -->
+    </div>
+    <!-- END PAGE TOP -->
+</div>
+<!-- END HEADER INNER -->
+</div>
+<!-- END HEADER -->
+<div class="clearfix">
+</div>
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+    <!-- BEGIN SIDEBAR -->
+    <div class="page-sidebar-wrapper">
+        <div class="page-sidebar navbar-collapse collapse" style="color: black;margin-top: 50px;">
+            <ul class="page-sidebar-menu " data-keep-expanded="false" data-auto-scroll="true"
+                data-slide-speed="200">
+                <li class="start ">
+                    <a href="index.html">
+                        <!-- <i class="icon-home"></i> -->
+                        <img style="width: 20px;height: 20px;" src="assets/admin/layout4/icons/home.png" />
+                        <span class="title">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Dong.html">
+                        <img style="width: 20px;height: 20px;" src="assets/admin/layout4/icons/about_us.png" />
+                        <span class="title">Dong She</span> </a>
+                    <!-- <a  href="world_epidemic_situation.html">
+                        World epidemic situation</a> -->
+                </li>
+                <li>
+                    <a href="Mengting.html">
+                        <img style="width: 20px;height: 20px;" src="assets/admin/layout4/icons/about_us.png" />
+                        <span class="title">Mengting Huang </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Siyi.html">
+                        <img style="width: 20px;height: 20px;" src="assets/admin/layout4/icons/about_us.png" />
+                        <span class="title">Siyi Wu</span></a>
+                </li>
+                <li>
+                    <a href="Zhouyang.html">
+                        <img style="width: 20px;height: 20px;" src="assets/admin/layout4/icons/about_us.png" />
+                        <span class="title">Zhouyang Meng</span> </a>
+                </li>
+                <li>
+                    <a href="Qianxi.html">
+                        <img style="width: 20px;height: 20px;" src="assets/admin/layout4/icons/about_us.png" />
+                        <span class="title"> Qianxi Yang</span>
+                    </a>
+                </li>
+                <!-- <li>
+                    <a href="version.html">
+                        <img style="width: 20px;height: 20px;" src="assets/admin/layout4/icons/历史.png" />
+                        <span class="title">Historic versions</span>
+                    </a>
+                </li> -->
+                <li>
+                    <a href="about_us.html">
+                        <img style="width: 20px;height: 20px;" src="assets/admin/layout4/icons/about us.png" />
+                        <span class="title">About us</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- END SIDEBAR MENU -->
+        </div>
+    </div>
+    <!-- END SIDEBAR -->
+    <!-- BEGIN CONTENT -->
+    <div class="page-content-wrapper">
+        <div class="page-content">
+            <!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+            <div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                 aria-hidden="true">
+            </div>
+            <!-- /.modal -->
+            <!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+            <!-- BEGIN PAGE HEADER-->
+            <!-- BEGIN PAGE HEAD -->
+            <div class="page-head">
+                <!-- BEGIN PAGE TITLE -->
+                <div class="page-title">
+                    <h1>Qianxi Yang <small> Personal Situation </small></h1>
+                </div>
+                <!-- END PAGE TITLE -->
+            </div>
+            <!-- END PAGE HEAD -->
+            <!-- 顶部四个数据展示begin -->
+            <div class="row margin-top-10">
+                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
+                    <div class="dashboard-stat2">
+                        <div class="display">
+                            <div class="number">
+                                <h3 class="font-red">Lecture</h3>
+                                <small>34</small>
+                            </div>
+                        </div>
+                        <div class="progress-info">
+                            <div class="progress">
+                                    <span style="width: 24%;" class="progress-bar progress-bar-success red">
+                                        <!-- <span class="sr-only">76% progress</span> -->
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
+                    <div class="dashboard-stat2">
+                        <div class="display">
+                            <div class="number">
+                                <h3 class="font-red-haze">Assignment</h3>
+                                <small>50</small>
+                            </div>
+                        </div>
+                        <div class="progress-info">
+                            <div class="progress">
+                                    <span style="width: 36%;" class="progress-bar progress-bar-success red-haze">
+                                        <!-- <span class="sr-only">85% change</span> -->
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
+                    <div class="dashboard-stat2">
+                        <div class="display">
+                            <div class="number">
+                                <h3 class="font-yellow">Research Project</h3>
+                                <small>0</small>
+                            </div>
+                        </div>
+                        <div class="progress-info">
+                            <div class="progress">
+                                    <span style="width: 0%;" class="progress-bar progress-bar-success yellow">
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
+                    <div class="dashboard-stat2">
+                        <div class="display">
+                            <div class="number">
+                                <h3 class="font-green-sharp">Exercise</h3>
+                                <small>6</small>
+                            </div>
+                        </div>
+                        <div class="progress-info">
+                            <div class="progress">
+                                    <span style="width: 4%;" class="progress-bar progress-bar-success green-sharp">
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
+                    <div class="dashboard-stat2">
+                        <div class="display">
+                            <div class="number">
+                                <h3 class="font-blue-sharp">Self Study</h3>
+                                <small>50</small>
+                            </div>
+                        </div>
+                        <div class="progress-info">
+                            <div class="progress">
+                                    <span style="width: 36%;" class="progress-bar progress-bar-success blue-sharp">
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
+                    <div class="dashboard-stat2">
+                        <div class="display">
+                            <div class="number">
+                                <h3 class="font-purple-soft">Overall</h3>
+                                <small>140</small>
+                            </div>
+                        </div>
+                        <div class="progress-info">
+                            <div class="progress">
+                                    <span style="width: 100%;" class="progress-bar progress-bar-success purple-soft">
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 顶部四个数据展示end -->
+
+            <div class="row">
+                <!-- 中国大陆整体疫情展示图begin -->
+                <div class="col-md-4">
+
+                    <div class="portlet light">
+                        <div class="portlet-body">
+                            <div id="vmap_world" class="Charts" style="height: 45em;">
+                                <!-- 2333 -->
+                                <div id="myCarousel" class="carousel image-carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="active item">
+                                            <a>
+                                                <img style="width: 100%;height: 30em;"
+                                                     src="assets/admin/layout4/img/DVD.png"
+                                                     class="img-responsive" alt="">
+                                            </a>
+                                            <div class="carousel-caption">
+                                                <h4>
+                                                    Data Visualization Design
+                                                </h4>
+                                                <!-- <p>
+                                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                                                </p> -->
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <a>
+                                                <img style="width: 100%;height: 30em;"
+                                                     src="assets/admin/layout4/img/hcc.jpeg"
+                                                     class="img-responsive" alt="">
+                                            </a>
+                                            <div class="carousel-caption">
+                                                <h4>
+                                                    Advanced Topics in Human-Centered Computing
+                                                </h4>
+                                                <!-- <p>
+                                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                                                </p> -->
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <a>
+                                                <img style="width: 100%;height: 30em;"
+                                                     src="assets/admin/layout4/img/web.png"
+                                                     class="img-responsive" alt="">
+                                            </a>
+                                            <div class="carousel-caption">
+                                                <h4>
+                                                    Frameworks and Architectures for the Web
+                                                </h4>
+                                                <!-- <p>
+                                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                                                </p> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Carousel nav -->
+                                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                                        <i class="m-icon-big-swapleft m-icon-white"></i>
+                                    </a>
+                                    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                                        <i class="m-icon-big-swapright m-icon-white"></i>
+                                    </a>
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active">
+                                        </li>
+                                        <li data-target="#myCarousel" data-slide-to="1">
+                                        </li>
+                                        <li data-target="#myCarousel" data-slide-to="2">
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="news-blocks">
+                                <br>
+                                    <div class="news-block-tags">
+                                        <strong>Qianxi</strong>
+                                        <!-- <em>2 hours ago</em> -->
+                                    </div>
+                                    <p>
+                                        This semester has been primarily dedicated to academic courses, with a significant focus on three key courses: Data Visualization Design, Frameworks and Architectures for the Web, and Advanced Topics in Human-Centered Computing. The majority of my time has been spent attending lectures, completing assignments, and participating in group discussions related to these courses.
+                                    </p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <!-- Page content goes here -->
+                    <!-- BEGIN WORLD PORTLET-->
+                    <div class="portlet light">
+                        <div class="portlet-body">
+                            <div id="vmap_world" class="Charts" style="height: 45em;">
+                                <div id="personal_parallel" style="width:100%;height:45em;margin: auto;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END WORLD PORTLET-->
+                </div>
+                <!-- 中国大陆整体疫情展示图end -->
+                <!-- 新增病例折线图/河流图begin -->
+                <div class="col-md-6 col-sm-12">
+                    <!-- BEGIN PORTLET-->
+                    <div class="portlet light ">
+                        <div class="portlet-title">
+                            <div class="caption caption-md">
+                                <i class="icon-bar-chart theme-font-color hide"></i>
+                                <span class="caption-subject theme-font-color bold uppercase">Total hours per week</span>
+                            </div>
+                        </div>
+                        <div class="portlet-body">
+                            <div class="row list-separated">
+                                <div id="personal_scatter" style="width: 100%; height:56em;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PORTLET-->
+                </div>
+                <!-- 新增病例折线图/河流图end -->
+                <!-- 总体趋势图 begin -->
+                <div class="col-md-6 col-sm-12">
+                    <!-- BEGIN PORTLET-->
+                    <div class="portlet light ">
+                        <div class="portlet-title">
+                            <div class="caption caption-md">
+                                <i class="icon-bar-chart theme-font-color hide"></i>
+                                <span class="caption-subject theme-font-color bold uppercase">Line chart of Daily tasks</span>
+                            </div>
+                        </div>
+                        <div class="portlet-body">
+                            <div class="row list-separated">
+                                <div id="personal_line_chart" style="width: 100%; height:56em;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PORTLET-->
+                </div>
+                <!-- 总体趋势图 end -->
+                <div class="col-md-6 col-sm-12">
+                    <!-- BEGIN PORTLET-->
+                    <div class="portlet light ">
+                        <div class="portlet-title">
+                            <div class="caption caption-md">
+                                <i class="icon-bar-chart theme-font-color hide"></i>
+                                <span class="caption-subject theme-font-color bold uppercase">Energy-efficiency nested pies</span>
+                            </div>
+                        </div>
+                        <div class="portlet-body">
+                            <div class="row list-separated">
+                                <div id="EFC" style="width: 100%; height:56em;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PORTLET-->
+                </div>
+                <!-- 动图 begin -->
+                <div class="col-md-6 col-sm-12">
+                    <!-- BEGIN PORTLET-->
+                    <div class="portlet light ">
+                        <div class="portlet-title">
+                            <div class="caption caption-md">
+                                <i class="icon-bar-chart theme-font-color hide"></i>
+                                <span class="caption-subject theme-font-color bold uppercase">Distribution of tasks</span>
+                            </div>
+                        </div>
+                        <div class="portlet-body">
+                            <div class="row list-separated">
+                                <div id="personal_ani_chart" style="width: 100%; height:56em;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PORTLET-->
+                </div>
+            </div>
+            <!-- END PAGE CONTENT INNER -->
+            <!-- END PAGE CONTENT-->
+        </div>
+    </div>
+    <!-- END CONTENT -->
+</div>
+<!-- END CONTAINER -->
+<!-- BEGIN FOOTER -->
+<div class="page-footer">
+    <div class="scroll-to-top">
+        <!-- <i class="icon-arrow-up"></i> -->
+        ↑ Back to top
+    </div>
+</div>
+
+<script type="text/javascript">
+    // Chart1
+    setTimeout(parallelChart, 1000);
+
+    function parallelChart() {
+        var myChart1 = echarts.init(document.getElementById('personal_parallel'));
+
+        var dataLec = [[0, 'ATHCC', 'Lecture', 2.0, 'normal', 'sleepy'], [2, 'ATHCC', 'Lecture', 2.0, 'normal', 'normal'], [4, 'DVD', 'Lecture', 4.0, 'normal', 'normal'], [7, 'ATHCC', 'Lecture', 2.0, 'normal', 'normal'], [9, 'ATHCC', 'Lecture', 2.0, 'normal', 'normal'], [18, 'DVD', 'Lecture', 2.0, 'low', 'normal'], [21, 'ATHCC', 'Lecture', 2.0, 'normal', 'normal'], [25, 'DVD', 'Lecture', 2.0, 'high', 'energetic'], [28, 'Web', 'Lecture', 4.0, 'low', 'tired'], [30, 'ATHCC', 'Lecture', 2.0, 'normal', 'normal'], [32, 'DVD', 'Lecture', 2.0, 'low', 'sleepy'], [35, 'Web', 'Lecture', 2.0, 'normal', 'normal'], [46, 'DVD', 'Lecture', 2.0, 'high', 'energetic'], [49, 'Web', 'Lecture', 2.0, 'low', 'tired'], [53, 'DVD', 'Lecture', 2.0, 'normal', 'normal']];
+        var dataAss = [[6, 'Web', 'Assignment', 3.0, 'normal', 'normal'], [13, 'ATHCC', 'Assignment', 6.0, 'normal', 'tired'], [17, 'ATHCC', 'Assignment', 5.0, 'normal', 'normal'], [20, 'ATHCC', 'Assignment', 2.0, 'low', 'normal'], [26, 'Web', 'Assignment', 4.0, 'high', 'normal'], [27, 'Web', 'Assignment', 2.0, 'normal', 'normal'], [29, 'ATHCC', 'Assignment', 3.0, 'normal', 'normal'], [31, 'ATHCC', 'Assignment', 5.0, 'high', 'energetic'], [34, 'ATHCC', 'Assignment', 4.0, 'normal', 'normal'], [38, 'Web', 'Assignment', 3.0, 'normal', 'normal'], [42, 'Web', 'Assignment', 3.0, 'high', 'energetic'], [43, 'Web', 'Assignment', 3.0, 'high', 'energetic'], [47, 'DVD', 'Assignment', 3.0, 'normal', 'normal'], [48, 'DVD', 'Assignment', 4.0, 'normal', 'normal']];
+        var dataRP = [];
+        var dataExe = [[5, 'DVD', 'Exercise', 1.0, 'normal', 'normal'], [19, 'DVD', 'Exercise', 2.0, 'low', 'normal'], [24, 'Selfstudy', 'Exercise', 3.0, 'low', 'tired']];
+        var dataSS = [[1, 'DVD', 'Self Study', 2.0, 'normal', 'normal'], [3, 'Web', 'Self Study', 4.0, 'normal', 'normal'], [8, 'DVD', 'Self Study', 3.0, 'normal', 'normal'], [22, 'DVD', 'Self Study', 2.0, 'normal', 'normal'], [23, 'Selfstudy', 'Self Study', 2.0, 'normal', 'normal'], [36, 'Selfstudy', 'Self Study', 6.0, 'normal', 'normal'], [37, 'Selfstudy', 'Self Study', 8.0, 'normal', 'normal'], [44, 'Selfstudy', 'Self Study', 4.0, 'low', 'tired'], [45, 'Selfstudy', 'Self Study', 5.0, 'high', 'energetic'], [50, 'Selfstudy', 'Self Study', 4.0, 'high', 'energetic'], [51, 'Selfstudy', 'Self Study', 6.0, 'high', 'energetic'], [52, 'Selfstudy', 'Self Study', 4.0, 'high', 'energetic']];
+
+        var schema = [
+        { name: 'Date', index: 0, text: 'Date' },
+        { name: 'Category', index: 1, text: 'Category' },
+        { name: 'Task', index: 2, text: 'Task' },
+        { name: 'Time', index: 3, text: 'Time' },
+        { name: 'Efficiency', index: 4, text: ' Efficiency' },
+        { name: 'Fatigue', index: 5, text: 'Fatigue' }
+        ];
+
+        var lineStyle = {
+        width: 2,
+        opacity: 0.5
+        };
+
+        option1 = {
+        legend: {
+            bottom: 15,
+            data: ['Lecture', 'Assignment', 'Research Project', 'Exercise', 'Self Study'],
+            itemGap: 40
+        },
+        tooltip: {
+            padding: 10,
+            borderColor: '#777',
+            borderWidth: 1
+        },
+        parallelAxis: [
+            { dim: 0, name: schema[0].text, max: 53 },
+            {
+            dim: 1,
+            name: schema[1].text,
+            type: 'category',
+            data: ['Post-DAE', 'DS', 'WRS', 'DVD', 'MAE', 'Travel']
+            },
+            {
+            dim: 2,
+            name: schema[2].text,
+            type: 'category',
+            data: ['ATHCC', 'DVD', 'Web', 'Travel', 'Selfstudy']
+            },
+            { dim: 3, name: schema[3].text, max: 8},
+            {
+            dim: 5,
+            name: schema[5].text,
+            type: 'category',
+            data: ['sleepy', 'tired', 'normal', 'energetic']
+            },
+            {
+            dim: 4,
+            name: schema[4].text,
+            type: 'category',
+            data: ['low', 'normal', 'high']
+            }
+            // { dim: 5, name: schema[5].text }
+            // { dim: 6, name: schema[6].text },
+
+        ],
+        series: [
+            {
+            name: 'Lecture',
+            type: 'parallel',
+            lineStyle: lineStyle,
+            data: dataLec
+            },
+            {
+            name: 'Assignment',
+            type: 'parallel',
+            lineStyle: lineStyle,
+            data: dataAss
+            },
+            {
+            name: 'Research Project',
+            type: 'parallel',
+            lineStyle: lineStyle,
+            data: dataRP
+            },
+                {
+            name: 'Exercise',
+            type: 'parallel',
+            lineStyle: lineStyle,
+            data: dataExe
+            },
+            {
+            name: 'Self Study',
+            type: 'parallel',
+            lineStyle: lineStyle,
+            data: dataSS
+            }
+        ]
+        };
+        
+        myChart1.setOption(option1);
+        window.addEventListener("resize", () => {
+            myChart1.resize();
+        });
+    }
+
+    // Chart2
+    setTimeout(chinaScatterChart, 1000);
+
+    function chinaScatterChart() {
+        var myChart2 = echarts.init(document.getElementById('personal_scatter'));
+
+        var weeks2 = ['week 0', 'week 1', 'week 2', 'week 3', 'week 4', 'week 5', 'week 6', 'week 7', 'week 8', 'week 9'];
+        var days2 = ['Monday', 'Thursday', 'Wednesday', 'Tuesday', 'Friday', 'Saturday', 'Sunday'];
+
+        var data2 = [[0, 1, 2.0], [1, 1, 2.0], [2, 1, 2.0], [3, 1, 4.0], [4, 1, 4.0], [5, 1, 1.0], [6, 1, 3.0], [0, 2, 2.0], [1, 2, 3.0], [2, 2, 2.0], [3, 2, 0.0], [4, 2, 0.0], [5, 2, 0.0], [6, 2, 6.0], [0, 3, 0.0], [1, 3, 0.0], [2, 3, 0.0], [3, 3, 5.0], [4, 3, 2.0], [5, 3, 2.0], [6, 3, 2.0], [0, 4, 2.0], [1, 4, 2.0], [2, 4, 2.0], [3, 4, 3.0], [4, 4, 2.0], [5, 4, 4.0], [6, 4, 2.0], [0, 5, 4.0], [1, 5, 3.0], [2, 5, 2.0], [3, 5, 5.0], [4, 5, 2.0], [5, 5, 0.0], [6, 5, 4.0], [0, 6, 2.0], [1, 6, 6.0], [2, 6, 8.0], [3, 6, 3.0], [4, 6, 0.0], [5, 6, 0.0], [6, 6, 0.0], [0, 7, 3.0], [1, 7, 3.0], [2, 7, 4.0], [3, 7, 5.0], [4, 7, 2.0], [5, 7, 3.0], [6, 7, 4.0], [0, 8, 2.0], [1, 8, 4.0], [2, 8, 6.0], [3, 8, 4.0], [4, 8, 2.0]];
+
+        data2 = data2.map(function (item) {
+            return [item[1], item[0], item[2]];
+        });
+
+        option2 = {
+            // title: {
+            //     text: 'Total hours per week',
+            //     left: "40%"
+            //     // link: ''
+            // },
+            // legend: {
+            //     data: ['Punch Card'],
+            //     left: 'right'
+            // },
+            tooltip: {
+                position: 'top',
+                formatter: function (params) {
+                    return params.value[2] + ' hours on ' + days2[params.value[1]] + ' of ' + weeks2[params.value[0]];
+                }
+            },
+            grid: {
+                // left: 2,
+                // bottom: 10,
+                // right: 10,
+                containLabel: true,
+                left: -1,
+            },
+            xAxis: {
+                type: 'category',
+                data: weeks2,
+                boundaryGap: false,
+                splitLine: {
+                    show: true,
+                    lineStyle: {
+                        color: '#999',
+                        type: 'dashed'
+                    }
+                },
+                axisLine: {
+                    show: false
+                }
+            },
+            yAxis: {
+                type: 'category',
+                data: days2,
+                axisLine: {
+                    show: false
+                }
+            },
+            series: [{
+                name: 'Punch Card',
+                type: 'scatter',
+                symbolSize: function (val) {
+                    return Math.sqrt(val[2])*25;
+                },
+                data: data2,
+                animationDelay: function (idx) {
+                    return idx * 5;
+                }
+            }]
+        };
+        myChart2.setOption(option2);
+        window.addEventListener("resize", () => {
+            myChart2.resize();
+        });
+    }
+
+
+    // Chart3
+    setTimeout(personalLineChart, 1000);
+
+    function personalLineChart() {
+        var myChart3 = echarts.init(document.getElementById('personal_line_chart'));
+        option3 = {
+            // title: {
+            //     text: 'Daily Task Line',
+            //     left: "2%"
+            // },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                data: ['Lecture', 'Assignment', 'Research Project', 'Exercise', 'Self Study']
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            toolbox: {
+                feature: {
+                saveAsImage: {}
+                }
+            },
+            xAxis: {
+                type: 'category',
+                boundaryGap: false,
+                data: ['2023/2/27', '2023/2/28', '2023/3/1', '2023/3/2', '2023/3/3', '2023/3/4', '2023/3/5', '2023/3/6', '2023/3/7', '2023/3/8', '2023/3/9', '2023/3/10', '2023/3/11', '2023/3/12', '2023/3/13', '2023/3/14', '2023/3/15', '2023/3/16', '2023/3/17', '2023/3/18', '2023/3/19', '2023/3/20', '2023/3/21', '2023/3/22', '2023/3/23', '2023/3/24', '2023/3/25', '2023/3/26', '2023/3/27', '2023/3/28', '2023/3/29', '2023/3/30', '2023/3/31', '2023/4/1', '2023/4/2', '2023/4/3', '2023/4/4', '2023/4/5', '2023/4/6', '2023/4/7', '2023/4/8', '2023/4/9', '2023/4/10', '2023/4/11', '2023/4/12', '2023/4/13', '2023/4/14', '2023/4/15', '2023/4/16', '2023/4/17', '2023/4/18', '2023/4/19', '2023/4/20', '2023/4/21']
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [
+                {
+                name: 'Lecture',
+                type: 'line',
+                // stack: 'Total',
+                data: [2.0, 0, 2.0, 0, 4.0, 0, 0, 2.0, 0, 2.0, 0, 0, 0, 0, 0, 0, 0, 0, 2.0, 0, 0, 2.0, 0, 0, 0, 2.0, 0, 0, 4.0, 0, 2.0, 0, 2.0, 0, 0, 2.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.0, 0, 0, 2.0, 0, 0, 0, 2.0]
+                },
+                {
+                name: 'Assignment',
+                type: 'line',
+                // stack: 'Total',
+                data: [0, 0, 0, 0, 0, 0, 3.0, 0, 0, 0, 0, 0, 0, 6.0, 0, 0, 0, 5.0, 0, 0, 2.0, 0, 0, 0, 0, 0, 4.0, 2.0, 0, 3.0, 0, 5.0, 0, 0, 4.0, 0, 0, 0, 3.0, 0, 0, 0, 3.0, 3.0, 0, 0, 0, 3.0, 4.0, 0, 0, 0, 0, 0]
+                },
+                {
+                name: 'Research Project',
+                type: 'line',
+                // stack: 'Total',
+                data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                name: 'Exercise',
+                type: 'line',
+                // stack: 'Total',
+                data: [0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.0, 0, 0, 0, 0, 3.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                },
+                {
+                name: 'Self Study',
+                type: 'line',
+                // stack: 'Total',
+                data: [0, 2.0, 0, 4.0, 0, 0, 0, 0, 3.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.0, 2.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6.0, 8.0, 0, 0, 0, 0, 0, 0, 4.0, 5.0, 0, 0, 0, 0, 4.0, 6.0, 4.0, 0]
+                }
+            ]
+            };
+            myChart3.setOption(option3);
+            window.addEventListener("resize", () => {
+            myChart3.resize();
+            });
+    }
+
+    // Chart4
+    setTimeout(EFC,1000);
+    function EFC(){
+        var mychart4 = echarts.init(document.getElementById('EFC'));
+
+        option4 = {
+            tooltip: {
+                trigger: 'item',
+                formatter: '{a} <br/>{b}: {c} ({d}%)'
+            },
+            legend: {
+                data: [
+                'Sleepy',
+                'Tired',
+                'Normal',
+                'Energetic',
+                'Lecture',
+                'Assignment',
+                'Exercise',
+                'Self Study',
+                'Research Project',
+                ]
+            },
+            series: [
+                {
+                name: 'Qianxi\'s Work',
+                type: 'pie',
+                // selectedMode: 'single',
+                radius: [0, '30%'],
+                label: {
+                    position: 'inner',
+                    fontSize: 14
+                },
+                labelLine: {
+                    show: false
+                },
+                data: [
+                    { value: 4.0, name: 'Sleepy' },
+                    { value: 19.0, name: 'Tired' },
+                    { value: 34.0, name: 'Energetic' },
+                    { value: 83.0, name: 'Normal', selected: true }
+                ]
+                },
+                {
+                name: 'Qianxi\'s Work',
+                type: 'pie',
+                radius: ['45%', '60%'],
+                labelLine: {
+                    length: 30
+                },
+                label: {
+                    formatter: '{a|{a}}{abg|}\n{hr|}\n  {b|{b}：}{c}  {per|{d}%}  ',
+                    backgroundColor: '#F6F8FC',
+                    borderColor: '#8C8D8E',
+                    borderWidth: 1,
+                    borderRadius: 4,
+                    rich: {
+                    a: {
+                        color: '#6E7079',
+                        lineHeight: 22,
+                        align: 'center'
+                    },
+                    hr: {
+                        borderColor: '#8C8D8E',
+                        width: '100%',
+                        borderWidth: 1,
+                        height: 0
+                    },
+                    b: {
+                        color: '#4C5058',
+                        fontSize: 14,
+                        fontWeight: 'bold',
+                        lineHeight: 33
+                    },
+                    per: {
+                        color: '#fff',
+                        backgroundColor: '#4C5058',
+                        padding: [3, 4],
+                        borderRadius: 4
+                    }
+                    }
+                },
+                data: [
+                    { value: 34.0, name: 'Lecture' },
+                    { value: 50.0, name: 'Assignment' },
+                    { value: 6.0, name: 'Exercise' },
+                    { value: 50.0, name: 'Self Study' },
+                    { value: 0, name: 'Research Project' },
+                   
+                  
+                ]
+                }
+            ]
+            };
+        
+        mychart4.setOption(option4);
+        window.addEventListener("resize", () => {
+        mychart4.resize(); });
+    }
+
+    // Chart5
+    setTimeout(personalAnimationChart, 1000);
+
+    function personalAnimationChart() {
+        var myChart5 = echarts.init(document.getElementById('personal_ani_chart'));
+        // 指定图表的配置项和数据
+        // prettier-ignore
+        const assignmentData = [[6, 3.0], [13, 6.0], [17, 5.0], [20, 2.0], [26, 4.0], [27, 2.0], [29, 3.0], [31, 5.0], [34, 4.0], [38, 3.0], [42, 3.0], [43, 3.0], [47, 3.0], [48, 4.0]];
+        // prettier-ignore
+        const exerciseData = [[5, 1.0], [19, 2.0], [24, 3.0]];
+        // prettier-ignore
+        const lectureData = [[0, 2.0], [2, 2.0], [4, 4.0], [7, 2.0], [9, 2.0], [18, 2.0], [21, 2.0], [25, 2.0], [28, 4.0], [30, 2.0], [32, 2.0], [35, 2.0], [46, 2.0], [49, 2.0], [53, 2.0]];
+        // prettier-ignore
+        const rpData = [];
+        // prettier-ignore
+        const ssData = [[1, 2.0], [3, 4.0], [8, 3.0], [22, 2.0], [23, 2.0], [36, 6.0], [37, 8.0], [44, 4.0], [45, 5.0], [50, 4.0], [51, 6.0], [52, 4.0]];
+        function calculateAverage(data, dim) {
+            let total = 0;
+            for (var i = 0; i < data.length; i++) {
+                total += data[i][dim];
+            }
+            return total;
+        }
+        const scatterOption = (option = {
+            // title: 'Distribution of tasks',
+            xAxis: {
+                scale: true
+            },
+            yAxis: {
+                scale: true
+            },
+            series: [
+                {
+                type: 'scatter',
+                id: 'assignment',
+                dataGroupId: 'assignment',
+                universalTransition: {
+                    enabled: true,
+                    delay: function (idx, count) {
+                    return Math.random() * 400;
+                    }
+                },
+                color: '#CE4D45',
+                data: assignmentData
+                },
+                {
+                type: 'scatter',
+                id: 'exercise',
+                dataGroupId: 'exercise',
+                universalTransition: {
+                    enabled: true,
+                    delay: function (idx, count) {
+                    return Math.random() * 400;
+                    }
+                },
+                color: '#F19C65',
+                data: exerciseData
+                },
+                {
+                type: 'scatter',
+                id: 'lecture',
+                dataGroupId: 'lecture',
+                universalTransition: {
+                    enabled: true,
+                    delay: function (idx, count) {
+                    return Math.random() * 400;
+                    }
+                },
+                color: '#FFD265',
+                data: lectureData
+                },
+                {
+                type: 'scatter',
+                id: 'rp',
+                dataGroupId: 'rp',
+                universalTransition: {
+                    enabled: true,
+                    delay: function (idx, count) {
+                    return Math.random() * 400;
+                    }
+                },
+                color: '#2AA876',
+                data: rpData
+                },
+                {
+                type: 'scatter',
+                id: 'ss',
+                dataGroupId: 'ss',
+                universalTransition: {
+                    enabled: true,
+                    delay: function (idx, count) {
+                    return Math.random() * 400;
+                    }
+                },
+                color: '#0A7B83',
+                data: ssData
+                }
+            ]
+        });
+        const barOption = {
+            // title: 'Distribution of tasks',
+            xAxis: {
+                type: 'category',
+                data: ['assignment', 'exercise', 'lecture', 'research project', 'self study']
+            },
+            yAxis: {},
+            series: [
+                {
+                type: 'bar',
+                id: 'total',
+                itemStyle: {
+                        normal: {
+                            // 随机显示
+                            // color:function(d){return "#"+Math.floor(Math.random()*(256*256*256-1)).toString(16);}
+                        
+                            // 定制显示（按顺序）
+                            color: function(params) { 
+                                var colorList = ['#CE4D45', '#F19C65', '#FFD265', '#2AA876', '#0A7B83']; 
+                                return colorList[params.dataIndex] 
+                            }
+                        },
+                    },
+                data: [
+                    {
+                    value: calculateAverage(assignmentData, 0),
+                    groupId: 'assignment'
+                    },
+                    {
+                    value: calculateAverage(exerciseData, 0),
+                    groupId: 'exercise'
+                    },
+                    {
+                    value: calculateAverage(lectureData, 0),
+                    groupId: 'lecture'
+                    },
+                    {
+                    value: calculateAverage(rpData, 0),
+                    groupId: 'rp'
+                    },
+                    {
+                    value: calculateAverage(ssData, 0),
+                    groupId: 'ss'
+                    }
+                ],
+                universalTransition: {
+                    enabled: true,
+                    seriesKey: ['assignment', 'exercise', 'lecture' ,'rp', 'ss'],
+                    delay: function (idx, count) {
+                    return Math.random() * 400;
+                    }
+                }
+                }
+            ]
+        };
+        let currentOption = scatterOption;
+        setInterval(function () {
+            currentOption = currentOption === scatterOption ? barOption : scatterOption;
+            myChart5.setOption(currentOption, true);
+        }, 3000);
+        window.addEventListener("resize", () => {
+        myChart5.resize();
+        });   
+    }
+</script>
+
+    <script src="assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+    <!-- IMPORTANT! Load jquery-ui.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+    <script src="assets/global/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"
+            type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+    <script src="assets/global/scripts/metronic.js" type="text/javascript"></script>
+    <script src="assets/admin/layout4/scripts/layout.js" type="text/javascript"></script>
+    <script src="assets/admin/layout4/scripts/demo.js" type="text/javascript"></script>
+    <script>
+        jQuery(document).ready(function () {
+            Metronic.init(); // init metronic core components
+            Layout.init(); // init current layout
+            Demo.init(); // init demo features
+        });
+    </script>
+    <!-- END JAVASCRIPTS -->
+    <script type="text/javascript" src="assets/global/scripts/canvas-nest.js"></script>
+    <canvas id="c_n1"></canvas>
+</body>
+<!-- END BODY -->
+
+</html>
